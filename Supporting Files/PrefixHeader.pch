@@ -1,0 +1,12 @@
+
+#ifndef Waterpurifier_PrefixHeader_pch
+#define Waterpurifier_PrefixHeader_pch
+
+#ifdef __OBJC__
+#import "MHPromptKit.h"
+#import "MHMediator+Dependency.h"
+#import "UIImage+MHBundle.h"
+#import "MHBundleManager.h"
+#endif //__OBJC__
+
+#endif 

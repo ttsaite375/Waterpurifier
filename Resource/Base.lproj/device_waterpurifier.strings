@@ -1,0 +1,313 @@
+/* 
+  device_waterpurifier.strings
+  MiHome
+  Created by Wayne Qiao on 16/5/18.
+  Copyright © 2016年 小米移动软件. All rights reserved.
+*/
+"tap.water.quality" = "Tap water quality: ";
+"purified.water.drinkable" = "Filtered water is drinkable";
+"purified.water.undrinkable" = "You can't drink current water directly";
+"filter.available.days" = "%d days remaining";
+"filter.unavailable.days" = "-- days remaining";
+"filter.status" = "Filter status";
+"filter.pp.cotton" = "PP cotton filter";
+"filter.pp.cotton.desc" = "Apply first-level filtering for the tap water to filter out sediment, rust, fiber and visible pollutants. Apply front pretreatment to filter out relatively larger size of impurities and particles to protect the RO filter from clogging and pollution.";
+"filter.front.gac" = "Front active carbon filter";
+"filter.front.gac.desc" = "Apply second-level filtering for the tap water to filter out colored, adsorb smelly substance, residual chlorine and some organic compounds. Apply front pretreatment to adsorb residual chlorine and other substance to protect RO filter from oxidative damage.";
+"filter.ro" = "RO filter";
+"filter.ro.desc" = "Apply third-level filtering for the tap water to filter out heavy metals, bacteria, limescale and organic compounds. Theoretical filtering accuracy can reach to 0.0001 micrometer. Its service life and the filtering effect are affected by local water quality, user habits and the processing capacity of the first two levels filter.";
+"filter.back.gac" = "Rear active carbon filter";
+"filter.back.gac.desc" = "Conduct further purifying, adsorb odor and improve the taste of the pure water processed by RO filter. If you don't change the rear processing filter after its expiration date, it will affect the taste of water, even breed bacteria.";
+/* 1.请检查进水温度是否在5~38℃之间，如果不在，请您将水温调整到此范围内后，重新尝试几次开机制纯水，看故障是否消除;\n\n2.如按照以上步骤排查后故障未消除，请拨打小米客服热线400-100-5678，请专业人员为您排查解决。 */
+"exception.desc1" = "1. Check if inlet water temperature is among 5~38°C, if not, please adjust the water temperature and try to purify water for several times to check if the problem is solved; \n\n2. If the problem still remains, please call customer service hotline 400-100-5678 to find professional support.";
+/* 漏水故障 */
+"exception.desc10" = "Water leak";
+/* 浮子异常 */
+"exception.desc11" = "Floater error";
+/* 1.检查RO滤芯是否过期，如过期请更换滤芯后尝试;\n\n2.进水需为市政自来水，如果不是请更换进水水源后尝试；\n\n3.如按照以上步骤排查后故障未消除，请拨打小米客服热线400-100-5678，请专业人员为您排查解决。 */
+"exception.desc12" = "1. If the RO filter expired, replace it first and try again;\n\n2. Inlet water should be municipal water, if it's not, replace the inlet water and try again;\n\n3. If the problem still remains, please call customer service hotline 400-100-5678 to find professional support.";
+/* 1.检查进水是否调到温水,水温是否≥40℃，请如果≥40℃，请调节到冷水挡并等水管内水温＜40℃后，再尝试几次制纯水;\n\n2.如按照以上步骤排查后故障未消除，请拨打小米客服热线400-100-5678，请专业人员为您排查解决 */
+"exception.desc13" = "1. Check if inlet water is warm water with temperature ≥40°C. If the temperature ≥40°C, please switch to cooling mode until the temperature < 40°C first, and try to purify the water several times; \n\n2. If the problem still remains, please call customer service hotline 400-100-5678 to find professional support.";
+/* 1.检查浓缩水排水管是否弯折、压扁或堵塞,排水是否正常;\n\n2.RO滤芯是否过期,如过期，请更换RO滤芯后尝试；\n\n3.如按照以上步骤排查后故障未消除，请拨打小米客服热线400-100-5678，请专业人员为您排查解决。 */
+"exception.desc14" = "1. Check if concentrated water's waste pipe works normally, if it's bent, squashed or clogged;\n\n2. If the RO filter expired, replace it first and try again;\n\n3. If the problem still remains, please call customer service hotline 400-100-5678 to find professional support.";
+/* 1.检查浓缩水排水管是否弯折、压扁或堵塞,排水是否正常;\n\n2.RO滤芯是否过期,如过期，请更换RO滤芯后尝试；\n\n3.如按照以上步骤排查后故障未消除，请拨打小米客服热线400-100-5678，请专业人员为您排查解决。 */
+"exception.desc15" = "1. Check if concentrated water's waste pipe works normally, if it's bent, squashed or clogged;\n\n2. If the RO filter expired, replace it first and try again;\n\n3. If the problem still remains, please call customer service hotline 400-100-5678 to find professional support.";
+/* 泵热保护 */
+"exception.desc16" = "Thermal protection for pumps";
+/* PP棉滤芯寿命到期后如果不及时更换，根据当地水质情况，可能会造成PP棉污堵或者穿透。前者会造成净水器出水流量小，影响使用体验，后者会使前期过滤的污染物又迁移到反渗透膜表面，进而污堵反渗透膜，减少反渗透膜的使用寿命，反而增加使用成本。 */
+"exception.desc17" = "If you didn't replace PP cotton filter on time when it's expired, it will be clogged or penetrated due to local water quality. Clogging makes water flow smaller, penetration causes pollution and clogging with filtered pollutant, which will reduce RO membrane's service life and increase the cost.";
+/* 前置活性炭滤芯到期后如果不及时更换，对自来水中的余氯几乎无吸附作用或者作用变小。余氯透过前置活性炭滤芯到达反渗透膜表面，使反渗透膜氧化损伤，从而使净水器的去除率下降，即净水器对有机物、重金属、细菌等的去除能力下降，进而会影响出水水质。 */
+"exception.desc18" = "If you didn't replace front active carbon filter when it's expired, it will lose adsorption ability gradually. Residual chlorine will go through the filter to cause damage to RO membrane's surface, thus to reduce pollutant removal ability and produced water quality.";
+/* 反渗透滤芯为反渗透净水器的核心过滤元件。由于其精密的过滤精度，对水中的水垢、细菌、农药、重金属等污染物有较强的过滤能力。反渗透滤芯寿命到期后如果不及时更换，可能会造成反渗透膜污堵或者处理能力下降。前期会使净水器的纯水流量偏小，影响用户体验，后者会使反渗透膜对污染物的去除能力减小，无法保障出水水质。 */
+"exception.desc19" = "RO filter is RO water purifier's core filtering element. With high filter precision, it has a strong filter capacity to block pollutants like limescale, bacteria, pesticide and heavy metals. If you didn't replace RO filter when it's expired, it will be clogged or lose processing capacity gradually. The former makes pure water flow smaller, while the latter will reduce RO membrane's filtering effect and water quality.";
+/* 1.请您依次拆装几次滤芯后，重新尝试制纯水，看故障是否可消除;\n\n2.如按照以上步骤排查后故障未消除，请拨打小米客服热线400-100-5678，请专业人员为您排查解决。 */
+"exception.desc2" = "1. After disassembling the filter for several times, try to purify water again to see if the problem can be solved;\n\n2. If the problem still remains, please call customer service hotline 400-100-5678 to find professional support.";
+/* 后置活性炭滤芯到期后如果不及时更换，无法去除水中的小分子有机物、异味等，或者去除能力下降，会造成净水器纯水口感下降，清凉甘甜的感觉也随之消失。另外，还可能会造成净水器的纯水的细菌总数超标。 */
+"exception.desc20" = "If you didn't replace rear active carbon filter when it's expired, it will lose absorbability gradually, and the water won't taste that good anymore. Furthermore, bacteria amount of the pure water may exceeds the limit.";
+/* 蓝色长亮：正常使用中，表示纯水TDS较低，可放心饮用。\n\n橙色闪烁：制纯水进水温度高于38度 \n\n橙色长亮:\n（1）表示纯水TDS较高，机器进入冲洗状态，继续制纯水至指示灯变蓝色即可;\n（2）同时主机指示灯和顶部滤芯寿命指示灯也橙色长亮，表示滤芯寿命已到 */
+"exception.desc21" = "Blue light on: In normal use, low water TDS, safe to drink.\n\nOrange light blinks: Inlet water temperature higher than 38℃.";
+/* 1.请按说明书拆掉触控龙头打开自来水水阀，检查水流是否比较小； \n\n2.请按说明书将与水龙头连接的转接头拆掉，看是否有杂质堵塞转接头滤网，将滤网冲洗干净； \n3.请检查您家的水压是否正常，楼顶二次供水、用水高峰期水压也会太低，可以请物业调高水压；\n4.水压低水流就低造成报故障，按以上步骤分别排查后，重新开机制纯水尝试故障是否排除；\n5.如按照以上步骤排查后故障未消除，请拨打小米客服热线400-100-5678，请专业人员为您排查解决。 */
+"exception.desc3" = "1. Disassemble the touch faucet as per manual book and open the water valve to check if the water flow is too small;";
+/* 1.滤芯寿命建议更换滤芯 */
+"exception.desc4" = "1. Replace filter";
+/* 1.原因可能为WIFI模块损坏或与主板连接异常，请您拨打小米客服热线400-100-5678，请专业人员为您排查解决。 */
+"exception.desc5" = "1. The problem may caused by Wi-Fi module damage or abnormal connection to motherboard, please call customer service hotline 400-100-5678 to find professional support.";
+/* 1.原因可能为EEPROM芯片损坏或与主板连接异常，请您拨打小米客服热线400-100-5678，请专业人员为您排查解决。 */
+"exception.desc6" = "1. The problem may caused by EEPROM chip damage or abnormal connection to motherboard, please call customer service hotline 400-100-5678 to find professional support.";
+/* rfid通讯异常 */
+"exception.desc7" = "RFID communication error";
+/* 1.水龙头内部电路板进水可能会引起此故障，请重新接插电源观察龙头指示灯是否点亮，尝试龙头按键操作是否正常;\n\n2. 如按照以上步骤排查后故障未消除，请拨打小米客服热线400-100-5678，请专业人员为您排查解决。 */
+"exception.desc8" = "1. Water in faucet internal circuit board can cause failure, please plug device in again to check if indicator lights and keys work normal;";
+/* 1.检查4支滤芯是否安装到位,滤芯是否过期,如果过期需更换滤芯;\n\n2.按说明书拆掉触控龙头打开自来水水阀，检查水流是否比较小； \n\n3.将与水龙头连接的转接头拆掉，看是否有杂质堵塞转接头滤网，将滤网冲洗干净； \n\n4.请检查您家的水压是否过低，楼顶二次供水、用水高峰期水压也会太低，可以请物业调高水压；\n\n5.水压低水流就低造成报故障，按以上步骤分别排查后，重新开机制纯水尝试故障是否排除；\n\n6.如按照以上步骤排查后故障未消除，请拨打小米客服热线400-100-5678，请专业人员为您排查解决 */
+"exception.desc9" = "1. Check if all 4 filters are properly installed and replace the filter if it expires;\n\n2. Disassemble the touch faucet as per manual book and open the water valve to check if the water flow is too small; ";
+/* 水温异常 */
+"exception.title1" = "Temperature anomaly";
+/* 漏水故障 */
+"exception.title10" = "Water leak";
+/* 浮子异常 */
+"exception.title11" = "Floater error";
+/* TDS异常 */
+"exception.title12" = "TDS error";
+/* 水温超高故障 */
+"exception.title13" = "Water temperature too high";
+/* 回收率异常 */
+"exception.title14" = "Recovery rate error";
+/* 出水水质异常 */
+"exception.title15" = "Water quality anomaly";
+/* 泵热保护 */
+"exception.title16" = "Thermal protection for pumps";
+/* PP滤芯寿命到期 */
+"exception.title17" = "PP filter life expired";
+/* 前置滤芯寿命到期 */
+"exception.title18" = "Front filter life expired";
+/* RO滤芯寿命到期 */
+"exception.title19" = "RO filter life expired";
+/* 进水流量计损坏 */
+"exception.title2" = "Meter damaged";
+/* 后置滤芯寿命到期 */
+"exception.title20" = "Rear filter life expired";
+/* 龙头纯水灯说明 */
+"exception.title21" = "Instructions for faucet pure water indicator light";
+/* 流量传感器异常 */
+"exception.title3" = "Flow sensor anomaly";
+/* 滤芯寿命到期 */
+"exception.title4" = "Filter life expired";
+/* Wifi通讯异常 */
+"exception.title5" = "Network connection error";
+/* eeprom通讯异常 */
+"exception.title6" = "EEPROM communication error";
+/* rfid通讯异常 */
+"exception.title7" = "RFID communication error";
+/* 龙头通讯异常 */
+"exception.title8" = "Faucet communication error";
+/* 纯水流量异常 */
+"exception.title9" = "Purified water flow error";
+/* 详情可查看使用帮助 */
+"filter.help" = "View details to find help";
+/* 直接购买滤芯 */
+"filter.purchase" = "Buy filter";
+/* 剩余%d%% */
+"filter.available.percentage" = "%d%% remaining";
+/* 立即购买 */
+"filter.purchase.now" = "Buy";
+/* 水质（TDS值）曲线 */
+"water.tds.curve" = "Water quality (TDS) curve";
+/* 取消 */
+"cancel" = "Cancel";
+/* 使用帮助 */
+"helps" = "Help";
+/* 安装贴士 */
+"install.tips" = "Installation tips";
+/* 使用贴士 */
+"usage.tips" = "Tips";
+/* 滤芯安装贴士 */
+"filtrt.usage.tips" = "Filter Installation tips";
+/* 小米净水器 */
+"waterpurifier" = "Mi Water Purifier";
+/* 净水器异常 */
+"waterpurifier.exception" = "Water purifier error";
+/* 触控龙头灯指示 */
+"waterpurifier.tap.light.tips" = "Touch faucet indicator light";
+/* 用水时长%d秒，生成纯水%.3fL，消耗自来水%.3fL */
+"purify.record.desc" = "Time used %@, water purified %2$.1f L, tap water consumed %3$.1f L";
+"purify.record.desc.LX5" = "Time used %@, water purified %2$.1f L";
+"purify.record.desc.sec" = "%i sec";
+"purify.record.desc.min" = "%i min";
+"purify.record.desc.h" = "%i hour";
+/* 纯水水质\n%d TDS */
+"purified.water.tds" = "Purified water quality\n%d TDS";
+/* 自来水水质\n%d TDS */
+"tap.water.tds" = "Tap water quality\n%d TDS";
+/* 开启时间 yyyy-MM-dd HH:mm:ss */
+"record.start.time" = "Starting time MM/dd/yyyy HH:mm:ss";
+/* 正在制造纯水... */
+"water.purifying" = "Purifying...";
+/* 日 */
+"day" = "D";
+/* 周 */
+"week" = "W";
+/* 月 */
+"month" = "M";
+/* 纯净水\n生成量(L) */
+"pure.water.output" = "Pure water\nPurified (L)";
+/* 自来水\n用量(L) */
+"tap.water.input" = "Tap water\nUsed (L)";
+/* 日用水详情 */
+"daily.water.usage" = "Daily water usage";
+/* 周用水详情 */
+"weekly.water.usage" = "Weekly water usage";
+/* 月用水详情 */
+"monthly.water.usage" = "Monthly water usage";
+"filter.status.willexpire" = " About to expire\n";
+"filter.status.expire" = " Already expired\n";
+"filter.status.know" = "ok";
+"filter.status.tips" = "Please replace the filter in a timely manner\nGuaranteed quality of drinking water";
+"um_string_qtion" = " Issues pending";
+"um_string_error23" = "PP filter life expires soon";
+"um_string_error24" = "Front filter life expires soon";
+"um_string_error25" = "RO filter life expires soon";
+"um_string_error26" = "Rear filter life expires soon";
+"um_string_problem_process" = "Issues";
+
+"um.string.device.offline" = "Device is offline";
+"um.string.lastdatas" = "Get access to the device connection status";
+"um_string_title_device_offline" = "Offline help";
+"um_string_device_offline_sub_title" = "What should I do if the app says that device is offline?";
+"um_string_device_offline_desc" = "Your network might be unstable or the device might be powered off.\nMake sure that:\n1. The device is connected to a power outlet and isn\'t used by other people.\n2. The router works normally and the Wi-Fi password you entered is correct. \n3. Reset the device if the steps above don\'t help.";
+"um_string_reset_title" = "How do I reset a device?";
+"um_string_reset_desc" = "Press and hold the Select and Reset buttons simultaneously for 5 seconds until you hear beeps and the notification light turns orange.";
+"um_string_reset_end" = "After you\'ve checked everything, refresh the device list.";
+"um_string_button_refresh_device_and_exit" = "Refresh and return to device list";
+
+
+
+"wash_tips_mainpage" = "%@天没有保养了";
+"wash_tips_title" = "保养（冲洗）功能说明";
+"wash_tips_detail" = "您已%@天没有保养（冲洗）过净水器了，请按时保养（冲洗），以保持滤芯的使用寿命";
+"wash_tips_use" = "保养（冲洗）使用方法";
+"wash_tips_use_detail1" = "小米净水器（升级版）在通电的情况下，常按智能触控龙头的“自来水”按键3秒，此时自来水蓝色灯闪烁，进入保养（冲洗）模式。";
+"wash_tips_use_detail2" = "打开自来水龙头，冲洗水从浓缩水管流出，持续1分钟。";
+"wash_tips_use_detail3" = "1分钟后，自动切换到自来水，关闭自来水龙头，即可完成保养。";
+//"wash_tips_use_detail" = "1、小米净水器（升级版）在通电的情况下，常按智能触控龙头的“自来水”按键3秒，此时自来水蓝色灯闪烁，进入保养（冲洗）模式；\n2、打开自来水龙头，冲洗水从浓缩水管流出，持续1分钟；\n3、1分钟后，自动切换到自来水，关闭自来水龙头，即可完成保养。";
+"wash_tips_benefit" = "保养（冲洗）的好处";
+"wash_tips_benefit_detail1" = "定期保养，可以有效去除掉反渗透膜表面拦截的污染物，对反渗透膜进行保养，避免污染物在反渗透膜表面沉积、结垢、滋生细菌，有效保障反渗透膜的使用寿命。";
+"wash_tips_benefit_detail2" = "降低净水器内残存的浓缩水的浓度，避免水路、水管、阀体内部结垢，提升部件的使用寿命。";
+//"wash_tips_benefit_detail" = "1、以自来水对系统进行冲洗，可以有效冲洗掉反渗透膜表面拦截的污染物，对反渗透膜进行保养，避免污染物在反渗透膜表面沉积、结垢、滋生细菌，有效保障反渗透膜的使用寿命。\n2、降低净水器内残存的浓缩水的浓度，避免水路、水管、阀体内部结垢，提升部件的使用寿命。";
+"wash_tips_note" = "保养（冲洗）的注意事项";
+"wash_tips_note_detail1" = "建议至少3天对机器进行一次保养。";
+"wash_tips_note_detail2" = "建议在最后一次使用净水器后进行保养，可以防止污染物长时间在系统内沉积。";
+"wash_tips_note_detail3" = "建议在出差前，对净水器进行一次保养，避免长时间不用，滤芯变质。";
+"wash_tips_note_detail4" = "保养（冲洗）后，系统会切换到自来水，注意及时关闭水龙头，避免自来水飞溅或者浪费水资源。";
+//"wash_tips_note_detail" = "1、建议至少3天对机器进行一次保养；\n2、建议在最后一次使用净水器后进行保养，可以防止污染物长时间在系统内沉积；\n3、建议在出差前，对整机进行一次保养，避免长时间不用，滤芯变质；\n4、保养（冲洗）后，系统会切换到自来水，注意及时关闭水龙头，避免自来水飞溅或者浪费水资源。";
+"wash_tips_other" = "小贴士";
+"wash_tips_other_detail1" = "保养不会消耗滤芯的使用寿命，反而会保障滤芯的使用寿命。";
+"wash_tips_other_detail2" = "保养的时候，采用静音设计，整机功率只稍高于待机功率，不会浪费电。";
+"wash_tips_other_detail3" = "保养的时候，按智能水龙头的任意键即可中断保养。";
+//"wash_tips_other_detail" = "1、保养不会消耗滤芯的使用寿命，反而会保障滤芯的使用寿命；\n2、保养的时候，采用静音设计，整机功率只稍高于待机功率，不会浪费电；\n3、保养的时候，按智能水龙头的任意键即可打断保养。";
+
+//zcm 米二代 翻译
+
+//进水温度
+
+"waterpurifier2" = "小米净水器2";
+
+"tap.water.temperature" = "进水温度：";
+
+//小贴士：多喝水可以促进肠胃消化呢
+"water_tips_1" = "小贴士：多喝水可以促进肠胃消化呢";
+
+//小贴士：小贴士：细嫩光滑的皮肤需要水的滋润哟
+"water_tips_2" = "小贴士：细嫩光滑的皮肤需要水的滋润哟";
+
+//小贴士：多喝水是保持红润脸色的关键哦
+"water_tips_3" = "小贴士：多喝水是保持红润脸色的关键哦";
+
+//小贴士：喝水有助于保持曼妙身材哦
+"water_tips_4" = "小贴士：喝水有助于保持曼妙身材哦";
+
+//小贴士：起床后一定要喝水，因为它是一天身体开始运作的关键呢~
+"water_tips_5" = "小贴士：起床后一定要喝水，因为它是一天身体开始运作的关键呢~";
+
+//小贴士：早晨空腹喝水要以小口小口缓慢地喝，喝完后缓步走最好啦~
+"water_tips_6" = "小贴士：早晨空腹喝水要以小口小口缓慢地喝，喝完后缓步走最好啦~";
+
+//小贴士：喝水要讲究水质哦，过滤后的良质水是健康的重要保证~
+"water_tips_7" = "小贴士：喝水要讲究水质哦，过滤后的良质水是健康的重要保证~";
+
+//小贴士：喝水也要讲究，应该匀着喝，不要一下子大量灌水哟~
+"water_tips_8" = "小贴士：喝水也要讲究，应该匀着喝，不要一下子大量灌水哟~";
+
+//小贴士：空调会夺走我们很多的水分，要多多补充水分哦~
+"water_tips_9" = "小贴士：空调会夺走我们很多的水分，要多多补充水分哦~";
+
+//小贴士：睡前不要喝太多水啦，频繁起夜会影响睡眠质量呢
+"water_tips_10" = "小贴士：睡前不要喝太多水啦，频繁起夜会影响睡眠质量呢";
+
+//小贴士：老年人睡前床边常备一杯水，口渴适量喝几口，降低脑血栓风险哦~
+"water_tips_11" = "小贴士：老年人睡前床边常备一杯水，口渴适量喝几口，降低脑血栓风险哦~";
+
+//小贴士：饭后半小时不要立刻喝水哦，半小时后慢慢喝~
+"water_tips_12" = "小贴士：饭后半小时不要立刻喝水哦，半小时后慢慢喝~";
+
+//小贴士：喝水时温度不要太热也不要太冷哦，适宜人体温度的温水就可以啦~
+"water_tips_13" = "小贴士：喝水时温度不要太热也不要太冷哦，适宜人体温度的温水就可以啦~";
+
+//3合1复合滤芯
+"filter_3_in_1" = "3合1复合滤芯";
+
+//对自来水进行第二级过滤，滤除水中的重金属、细菌、水垢、有机物等杂质。理论过滤精度可达0.0001微米，其使用寿命和去除效果受当地水质、用户使用习惯及前两级滤芯的处理能力的影响。
+"filter_ro_2_desc" = "对自来水进行第二级过滤，滤除水中的重金属、细菌、水垢、有机物等杂质。理论过滤精度可达0.0001微米，其使用寿命和去除效果受当地水质、用户使用习惯及前两级滤芯的处理能力的影响。";
+
+//前置炭棒过滤I精选韩国进口炭棒，吸附更均匀，更有效吸附余氯、异味及部分有机物；折叠PP滤芯I精选优质折叠PP滤材，过滤面积更大，孔径均匀，纳污量大，利用率更高，使用寿命长一倍，有效滤除泥沙、铁锈等大颗粒杂质；后置炭棒过滤I精选韩国进口炭棒，过滤精度高，吸附能力强，进一步改善口感。
+"filter_3_in_1_desc" = "前置炭棒过滤I精选韩国进口炭棒，吸附更均匀，更有效吸附余氯、异味及部分有机物；折叠PP滤芯I精选优质折叠PP滤材，过滤面积更大，孔径均匀，纳污量大，利用率更高，使用寿命长一倍，有效滤除泥沙、铁锈等大颗粒杂质；后置炭棒过滤I精选韩国进口炭棒，过滤精度高，吸附能力强，进一步改善口感。";
+
+//3合1复合滤芯寿命到期
+"exception.title17.LX5" = "3合1复合滤芯寿命到期";
+//RO滤芯寿命到期
+"exception.title18.LX5" = "RO滤芯寿命到期";
+
+//3合1复合滤芯寿命快到期
+"um_string_error23_LX5" = "3合1复合滤芯寿命快到期";
+//RO滤芯寿命快到期
+"um_string_error24_LX5" = "RO滤芯寿命快到期";
+
+//还没有给我3合1滤芯的危害描述呢，占位占位
+"exception.desc17.LX5" = "3合1滤芯到期后如果不及时更换，会使得pp棉及前置、后置活性炭的过滤效果几乎没有或者过滤作用减少，pp棉及前置活性炭的过滤效果削减一方面会减少出水流量，另一方面会使更多污染物进入反渗透滤芯，减小反渗透滤芯的使用寿命甚至损坏反渗透滤芯，从而使净水器的去除率下降，即净水器对有机物、重金属、细菌等的去除能力下降，进而会影响出水水质。后置活性炭的过滤效果衰减会无法去除水中的小分子有机物、异味等，或者去除能力下降，会造成净水器纯水口感下降，清凉甘甜的感觉也随之消失。另外，还可能会造成净水器的纯水的细菌总数超标。";
+
+//反渗透滤芯为反渗透净水器的核心过滤元件。由于其精密的过滤精度，对水中的水垢、细菌、农药、重金属等污染物有较强的过滤能力。反渗透滤芯寿命到期后如果不及时更换，可能会造成反渗透膜污堵或者处理能力下降。前期会使净水器的纯水流量偏小，影响用户体验，后者会使反渗透膜对污染物的去除能力减小，无法保障出水水质。
+"exception.desc18.LX5" = "反渗透滤芯为反渗透净水器的核心过滤元件。由于其精密的过滤精度，对水中的水垢、细菌、农药、重金属等污染物有较强的过滤能力。反渗透滤芯寿命到期后如果不及时更换，可能会造成反渗透膜污堵或者处理能力下降。前期会使净水器的纯水流量偏小，影响用户体验，后者会使反渗透膜对污染物的去除能力减小，无法保障出水水质。 ";
+
+
+//异常问题反馈
+"exception.feedback.question" = "Go to www.mi.com learn more";
+
+"exception.feedback.question.link" = "https://www.mi.com";
+
+"mydevice.orange.value" = "龙头灯橙色阈值";
+
+"mydevice.orange.sure" = "Sure";
+
+"mydevice.orange.cancle" = "Cancle";
+
+"mydevice.orange.tips" = "龙头灯显示为橙色的最低TDS值";
+
+"mydevice.orange.fail" = "龙头最低TDS值设置失败";
+
+"waterpurifier.name.on" = "小米净水器厨上版";
+
+"waterpurifier.name.under" = "小米净水器厨下版";
+
+"waterpurifier.name.on.power" = "小米净水器厨上增强版";
+
+"waterpurifier.purity.height" = "0-50 纯度高";
+
+"waterpurifier.purity.good" = "50-100 纯度较高";
+
+"waterpurifier.purity.normal" = "100-300 纯度正常";
+
+"exception.title22" = "清洗中";
+
+"exception.desc22" = "净水器上电初次使用、更换新滤芯并复位、超过三天没使用，系统都会进去全管路清洗";
+
+
+
