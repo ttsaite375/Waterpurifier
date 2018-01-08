@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  小米净水器插件
+  小米、云米合作开发，小米净水器插件源码
                    DESC
 
   s.homepage     = "https://github.com/ttsaite375/Waterpurifier"
@@ -64,11 +64,11 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -91,9 +91,12 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Logic/*.{h,m}", "Logic/ReqAndRsp/*.{h,m}","Logic/ReqAndRsp/Data/*.{h,m}","Supporting Files/*","UI/*{h,m}","UI/x4/*{h,m}",
+  # s.source_files  = "Logic/*.{h,m}", "Logic/ReqAndRsp/*.{h,m}","Logic/ReqAndRsp/Data/*.{h,m}","UI/*{h,m}","UI/x4/*{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
+  # s.prefix_header_file = 'Supporting Files/PrefixHeader.pch'
+
+# "Supporting Files/*",
   # s.public_header_files = "Classes/**/*.h"
 
 
@@ -106,7 +109,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Resource/**/*.{strings}"
+  s.resources = "Resource/**/*.{strings}","Supporting Files/PrefixHeader.pch","Logic/*.{h,m}", "Logic/ReqAndRsp/*.{h,m}","Logic/ReqAndRsp/Data/*.{h,m}","UI/*{h,m}","UI/x4/*{h,m}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
