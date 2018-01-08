@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Waterpurifier"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "小米净水器插件"
 
   # This description is used to generate tags and improve search results.
