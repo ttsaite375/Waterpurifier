@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Waterpurifier"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "小米净水器插件-iOS"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "cocoa/**/*.{h,m,pch}"
+  s.source_files  = "Waterpurifier/*"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.resources = "cocoa/Resource/**/*.{strings}"
+  # s.resources = "cocoa/Resource/**/*.{strings}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
