@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source  = { :git => "http://github.com/ttsaite375/Waterpurifier", :tag => "#{s.version}" }
+  s.source  = { :git => "https://github.com/ttsaite375/Waterpurifier.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Waterpurifier/**/*.{h,m,pch,mm}"
+  s.source_files  = "cocoa/**/*.{h,m,pch}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.resources = "Waterpurifier/Resource/**/*.{strings}"
+  s.resources = "cocoa/Resource/**/*.{strings}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -131,7 +131,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
